@@ -85,3 +85,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Trung's configuration:
 export EDITOR=vim
+
+PATH="/usr/local/sbin:$PATH"
