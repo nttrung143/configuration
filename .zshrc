@@ -86,4 +86,6 @@ source $ZSH/oh-my-zsh.sh
 # Trung's configuration:
 export EDITOR=vim
 
-PATH="/usr/local/sbin:$PATH"
+#PATH="/usr/local/sbin:$PATH"
+export HOMEBREW_GITHUB_API_TOKEN="74217d93c2c0aa761732f4d14e584b8f2da67c8b"
+export PATH="/usr/local/sbin:$PATH"
