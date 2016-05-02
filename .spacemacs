@@ -252,7 +252,7 @@ in `dotspacemacs/user-config'."
   (spacemacs/set-leader-keys "oo" 'ido-find-file);; SPC o o 
   (spacemacs/set-leader-keys "oi" 'yas-insert-snippet)
   (global-set-key [mouse-4] 'scroll-down-line)
-  (global-set-key [mouse-5] 'scroll-up-line)  
+  (global-set-key [mouse-5] 'scroll-up-line)
   )
 
 (defun dotspacemacs/user-config ()
@@ -262,6 +262,8 @@ layers configuration. You are free to put any user code."
   (setq powerline-default-separator nil) ;; remove ugly separator
   (setq-default js2-basic-offset 2)
   (setq-default js-indent-level 2)
+  (global-linum-mode)
+  (global-hl-line-mode -1)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
