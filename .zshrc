@@ -89,3 +89,14 @@ export EDITOR=vim
 #PATH="/usr/local/sbin:$PATH"
 export HOMEBREW_GITHUB_API_TOKEN="74217d93c2c0aa761732f4d14e584b8f2da67c8b"
 export PATH="/usr/local/sbin:$PATH"
+source /Users/trungnt/Documents/py3env/bin/activate
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f /Users/trungnt/Downloads/google-cloud-sdk/path.zsh.inc ]; then
+  source '/Users/trungnt/Downloads/google-cloud-sdk/path.zsh.inc'
+fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f /Users/trungnt/Downloads/google-cloud-sdk/completion.zsh.inc ]; then
+  source '/Users/trungnt/Downloads/google-cloud-sdk/completion.zsh.inc'
+fi
